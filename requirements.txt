@@ -1,3 +1,6 @@
-pandas
-numpy
-streamlit
+pandas>=2.0.0
+numpy>=1.24.0
+streamlit>=1.30.0
+plotly>=5.15.0
+groq>=0.5.0
+python-dotenv>=1.0.0
