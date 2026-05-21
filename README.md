@@ -30,7 +30,7 @@ An AI-powered retail analytics dashboard that generates automated business insig
 - Plotly
 - NumPy
 - Scikit-Learn
-- Google Generative AI
+- Groq Generative AI
 
 ---
 
