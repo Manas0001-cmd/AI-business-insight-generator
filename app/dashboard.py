@@ -8,9 +8,7 @@ from llm_handler import generate_ai_insights
 # PAGE CONFIG
 # ---------------------------------------------------
 
-st.set_page_config(
-    page_title="AI Business Insight Generator",
-    layout="wide"
+st.set_page_config(page_title="AI Business Insight Generator", layout="wide")
 )
 
 # ---------------------------------------------------
@@ -19,6 +17,18 @@ st.set_page_config(
 
 st.title("📊 AI Business Insight Generator")
 st.markdown("AI-powered retail analytics dashboard")
+
+# ---------------------------------------------------
+# SIDEBAR CONFIGURATION (Yaha daalna hai Step 1)
+# ---------------------------------------------------
+st.sidebar.header("🤖 AI Settings")
+
+# Dropdown menu for selecting Groq models
+model_choice = st.sidebar.selectbox(
+    "Choose AI Model:",
+    options=["llama-3.3-70b-versatile", "llama3-8b-8192", "mixtral-8x7b-32768"],
+    index=0  # Default selection
+)
 
 # ---------------------------------------------------
 # LOAD DATA
