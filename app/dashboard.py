@@ -9,7 +9,7 @@ from llm_handler import generate_ai_insights
 # ---------------------------------------------------
 
 st.set_page_config(page_title="AI Business Insight Generator", layout="wide")
-)
+
 
 # ---------------------------------------------------
 # TITLE
