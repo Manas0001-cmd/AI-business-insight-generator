@@ -11,7 +11,7 @@ An AI-powered retail analytics dashboard that generates automated business insig
 - Profit Analysis
 - Top Product Insights
 - AI Business Recommendations
-- Gemini AI Integration
+- Groq AI Integration
 - Interactive Charts
 - Retail Analytics
 
